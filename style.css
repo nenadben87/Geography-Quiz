@@ -1,0 +1,43 @@
+
+body{
+  background-color: rgb(146, 180, 214);
+}
+.item-hl{
+  width: 60%;
+  padding: 2%;
+  background-color: darkorchid;
+  margin: 5%;
+  margin-bottom: 0.2%;
+  color: whitesmoke;
+  font-size: 1.8em;
+  border: 2px solid whitesmoke;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.item-hl:hover{
+  background-color: rgb(138, 45, 185);
+}
+
+#next-btn{
+  width: 10%;
+  padding: 1%;
+  cursor: pointer;
+}
+
+#correct-answers{
+  font-size: 1.4em;
+  margin: 15%;
+  color: rgb(6, 99, 6);
+}
+
+#wrong-answers{
+  font-size: 1.4em;
+  margin: 15%;
+  color: rgb(153, 26, 26);
+}
+
+#question-2 ,#question-3 ,#question-4 ,#question-5 ,#question-6 ,#question-7 ,#question-8 ,#question-9 ,#question-10 ,#quiz-end{
+  display: none;
+}
+
